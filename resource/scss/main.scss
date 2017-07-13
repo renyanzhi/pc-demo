@@ -1,0 +1,18 @@
+@mixin center-block{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.center{
+	@include center-block;
+	width:100px;
+	background-color:blue;
+}
+.box{
+	@include center-block;
+	width:100px;
+	height:100px;
+	background-color:pink;
+	border:solid 5px #000;
+	border-radius:50%;
+}
